@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:#f4d467;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*! Player Card/Container Styling  */
+.card-container{
+  background-image: url("https://preview.redd.it/4264ng171b8a1.jpg?width=800&format=pjpg&auto=webp&v=enabled&s=a950fee3e201c0a551f2698d4e47faf40c3356ca");
+  min-width: 300px;
+}
+.player-card{
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+
+}
+.player-card:hover{
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.player-logo{
+  transition: transform 0.2s;
+  height: 350px;
+}
+
+.player-card:hover .player-logo{
+  transform: scale(0.95);
+}
